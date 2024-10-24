@@ -17,6 +17,9 @@ const obrazy = [
 function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        <h1>Galeria Obrazów</h1>
+      </header>
       <div className='obrazy'>
         <Obraz zdjecie={obrazek} nr={obrazy[0].cena} nazwa={obrazy[0].nazwa} opis={obrazy[0].opis} cena={obrazy[0].cena}/>
         <Obraz zdjecie={obrazek} nr={obrazy[1].cena} nazwa={obrazy[1].nazwa} opis={obrazy[1].opis} cena={obrazy[1].cena}/>
